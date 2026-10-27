@@ -1,0 +1,56 @@
+[ 11%] Building CXX object CMakeFiles/bt_basics.dir/src/note.cpp.o
+[ 22%] Linking CXX shared library libbt_basics.so
+[ 33%] Built target bt_basics
+Consolidate compiler generated dependencies of target hello_sequence
+[ 44%] Linking CXX executable mini_nav_tree
+[ 55%] Linking CXX executable hello_sequence
+[ 66%] Linking CXX executable counter_tree
+[ 77%] Built target counter_tree
+[ 88%] Built target hello_sequence
+[100%] Built target mini_nav_tree
+-- Install configuration: ""
+-- Installing: /home/wzy/my_learn/install/bt_basics/lib/bt_basics/hello_sequence
+-- Set runtime path of "/home/wzy/my_learn/install/bt_basics/lib/bt_basics/hello_sequence" to ""
+-- Installing: /home/wzy/my_learn/install/bt_basics/lib/bt_basics/counter_tree
+-- Set runtime path of "/home/wzy/my_learn/install/bt_basics/lib/bt_basics/counter_tree" to ""
+-- Installing: /home/wzy/my_learn/install/bt_basics/lib/bt_basics/mini_nav_tree
+-- Set runtime path of "/home/wzy/my_learn/install/bt_basics/lib/bt_basics/mini_nav_tree" to ""
+-- Installing: /home/wzy/my_learn/install/bt_basics/lib/libbt_basics.so
+-- Set runtime path of "/home/wzy/my_learn/install/bt_basics/lib/libbt_basics.so" to ""
+-- Up-to-date: /home/wzy/my_learn/install/bt_basics/include
+-- Up-to-date: /home/wzy/my_learn/install/bt_basics/include/bt_basics
+-- Up-to-date: /home/wzy/my_learn/install/bt_basics/include/bt_basics/demo_runner.hpp
+-- Up-to-date: /home/wzy/my_learn/install/bt_basics/include/bt_basics/move_to.hpp
+-- Installing: /home/wzy/my_learn/install/bt_basics/include/bt_basics/note.hpp
+-- Up-to-date: /home/wzy/my_learn/install/bt_basics/share/bt_basics/trees
+-- Up-to-date: /home/wzy/my_learn/install/bt_basics/share/bt_basics/trees/retry.xml
+-- Up-to-date: /home/wzy/my_learn/install/bt_basics/share/bt_basics/trees/hello_sequence_fail.xml
+-- Up-to-date: /home/wzy/my_learn/install/bt_basics/share/bt_basics/trees/hello_fallback.xml
+-- Up-to-date: /home/wzy/my_learn/install/bt_basics/share/bt_basics/trees/inverter.xml
+-- Up-to-date: /home/wzy/my_learn/install/bt_basics/share/bt_basics/trees/approach.xml
+-- Up-to-date: /home/wzy/my_learn/install/bt_basics/share/bt_basics/trees/counter.xml
+-- Up-to-date: /home/wzy/my_learn/install/bt_basics/share/bt_basics/trees/timeout.xml
+-- Up-to-date: /home/wzy/my_learn/install/bt_basics/share/bt_basics/trees/hello_sequence.xml
+-- Up-to-date: /home/wzy/my_learn/install/bt_basics/share/bt_basics/trees/hello_running.xml
+-- Up-to-date: /home/wzy/my_learn/install/bt_basics/share/bt_basics/trees/counter_loose.xml
+-- Up-to-date: /home/wzy/my_learn/install/bt_basics/share/bt_basics/environment/library_path.sh
+-- Up-to-date: /home/wzy/my_learn/install/bt_basics/share/bt_basics/environment/library_path.dsv
+-- Up-to-date: /home/wzy/my_learn/install/bt_basics/share/ament_index/resource_index/package_run_dependencies/bt_basics
+-- Up-to-date: /home/wzy/my_learn/install/bt_basics/share/ament_index/resource_index/parent_prefix_path/bt_basics
+-- Up-to-date: /home/wzy/my_learn/install/bt_basics/share/bt_basics/environment/ament_prefix_path.sh
+-- Up-to-date: /home/wzy/my_learn/install/bt_basics/share/bt_basics/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/wzy/my_learn/install/bt_basics/share/bt_basics/environment/path.sh
+-- Up-to-date: /home/wzy/my_learn/install/bt_basics/share/bt_basics/environment/path.dsv
+-- Up-to-date: /home/wzy/my_learn/install/bt_basics/share/bt_basics/local_setup.bash
+-- Up-to-date: /home/wzy/my_learn/install/bt_basics/share/bt_basics/local_setup.sh
+-- Up-to-date: /home/wzy/my_learn/install/bt_basics/share/bt_basics/local_setup.zsh
+-- Up-to-date: /home/wzy/my_learn/install/bt_basics/share/bt_basics/local_setup.dsv
+-- Installing: /home/wzy/my_learn/install/bt_basics/share/bt_basics/package.dsv
+-- Up-to-date: /home/wzy/my_learn/install/bt_basics/share/ament_index/resource_index/packages/bt_basics
+-- Up-to-date: /home/wzy/my_learn/install/bt_basics/share/bt_basics/cmake/export_bt_basicsExport.cmake
+-- Up-to-date: /home/wzy/my_learn/install/bt_basics/share/bt_basics/cmake/export_bt_basicsExport-noconfig.cmake
+-- Up-to-date: /home/wzy/my_learn/install/bt_basics/share/bt_basics/cmake/ament_cmake_export_targets-extras.cmake
+-- Up-to-date: /home/wzy/my_learn/install/bt_basics/share/bt_basics/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Up-to-date: /home/wzy/my_learn/install/bt_basics/share/bt_basics/cmake/bt_basicsConfig.cmake
+-- Up-to-date: /home/wzy/my_learn/install/bt_basics/share/bt_basics/cmake/bt_basicsConfig-version.cmake
+-- Up-to-date: /home/wzy/my_learn/install/bt_basics/share/bt_basics/package.xml

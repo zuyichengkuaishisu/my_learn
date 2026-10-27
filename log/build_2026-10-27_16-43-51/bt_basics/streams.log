@@ -1,0 +1,81 @@
+[0.009s] Invoking command in '/home/wzy/my_learn/build/bt_basics': CMAKE_PREFIX_PATH=/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake /home/wzy/my_learn/src/bt_basics -DCMAKE_INSTALL_PREFIX=/home/wzy/my_learn/install/bt_basics
+[0.076s] -- The C compiler identification is GNU 11.4.0
+[0.157s] -- The CXX compiler identification is GNU 11.4.0
+[0.164s] -- Detecting C compiler ABI info
+[0.262s] -- Detecting C compiler ABI info - done
+[0.275s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.276s] -- Detecting C compile features
+[0.277s] -- Detecting C compile features - done
+[0.283s] -- Detecting CXX compiler ABI info
+[0.409s] -- Detecting CXX compiler ABI info - done
+[0.421s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.421s] -- Detecting CXX compile features
+[0.421s] -- Detecting CXX compile features - done
+[0.425s] -- Found ament_cmake: 1.3.14 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.819s] -- Found Python3: /home/wzy/anaconda3/bin/python3 (found version "3.13.9") found components: Interpreter 
+[0.969s] -- Found ament_index_cpp: 1.4.1 (/opt/ros/humble/share/ament_index_cpp/cmake)
+[1.086s] -- Configuring done
+[1.091s] -- Generating done
+[1.094s] -- Build files have been written to: /home/wzy/my_learn/build/bt_basics
+[1.099s] Invoked command in '/home/wzy/my_learn/build/bt_basics' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake /home/wzy/my_learn/src/bt_basics -DCMAKE_INSTALL_PREFIX=/home/wzy/my_learn/install/bt_basics
+[1.101s] Invoking command in '/home/wzy/my_learn/build/bt_basics': CMAKE_PREFIX_PATH=/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --build /home/wzy/my_learn/build/bt_basics -- -j12 -l12
+[1.188s] [ 11%] Building CXX object CMakeFiles/bt_basics.dir/src/note.cpp.o
+[1.189s] [ 22%] Building CXX object CMakeFiles/bt_basics.dir/src/move_to.cpp.o
+[2.249s] [ 33%] Linking CXX shared library libbt_basics.so
+[2.352s] [ 33%] Built target bt_basics
+[2.369s] [ 44%] Building CXX object CMakeFiles/counter_tree.dir/src/counter_tree.cpp.o
+[2.377s] [ 66%] Building CXX object CMakeFiles/hello_sequence.dir/src/hello_sequence.cpp.o
+[2.377s] [ 66%] Building CXX object CMakeFiles/mini_nav_tree.dir/src/mini_nav_tree.cpp.o
+[3.057s] /home/wzy/my_learn/src/bt_basics/src/hello_sequence.cpp: In function ‘int {anonymous}::runOnce(BT::BehaviorTreeFactory&, const string&, const string&, const std::function<int(BT::NodeStatus, const std::vector<std::__cxx11::basic_string<char> >&)>&, int)’:
+[3.057s] /home/wzy/my_learn/src/bt_basics/src/hello_sequence.cpp:79:49: error: cannot convert ‘{anonymous}::runOnce(BT::BehaviorTreeFactory&, const string&, const string&, const std::function<int(BT::NodeStatus, const std::vector<std::__cxx11::basic_string<char> >&)>&, int)::<lambda(BT::Duration, const BT::TreeNode&, BT::NodeStatus, BT::NodeStatus)>’ to ‘BT::TreeNode::StatusChangeCallback’ {aka ‘std::function<void(std::chrono::time_point<std::chrono::_V2::system_clock, std::chrono::duration<long int, std::ratio<1, 1000000000> > >, const BT::TreeNode&, BT::NodeStatus, BT::NodeStatus)>’}
+[3.057s]    79 |     subs.push_back(node->subscribeToStatusChange(
+[3.057s]       |                    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^
+[3.057s]    80 |       [&](BT::Duration, const BT::TreeNode & n, BT::NodeStatus prev, BT::NodeStatus status) {
+[3.057s]       |       ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+[3.057s]    81 |         if (prev == BT::NodeStatus::IDLE && status != BT::NodeStatus::IDLE) {
+[3.057s]       |         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+[3.058s]    82 |           ticked.push_back(n.name());
+[3.058s]       |           ~~~~~~~~~~~~~~~~~~~~~~~~~~~            
+[3.058s]    83 |         }
+[3.058s]       |         ~                                        
+[3.058s]    84 |       }));
+[3.058s]       |       ~~                                         
+[3.058s] In file included from /opt/ros/humble/include/behaviortree_cpp_v3/control_node.h:17,
+[3.058s]                  from /opt/ros/humble/include/behaviortree_cpp_v3/controls/parallel_node.h:17,
+[3.058s]                  from /opt/ros/humble/include/behaviortree_cpp_v3/behavior_tree.h:17,
+[3.058s]                  from /opt/ros/humble/include/behaviortree_cpp_v3/bt_factory.h:25,
+[3.058s]                  from /home/wzy/my_learn/src/bt_basics/src/hello_sequence.cpp:6:
+[3.058s] /opt/ros/humble/include/behaviortree_cpp_v3/tree_node.h:112:71: note:   initializing argument 1 of ‘BT::TreeNode::StatusChangeSubscriber BT::TreeNode::subscribeToStatusChange(BT::TreeNode::StatusChangeCallback)’
+[3.058s]   112 |   StatusChangeSubscriber subscribeToStatusChange(StatusChangeCallback callback);
+[3.058s]       |                                                  ~~~~~~~~~~~~~~~~~~~~~^~~~~~~~
+[3.065s] /home/wzy/my_learn/src/bt_basics/src/hello_sequence.cpp: In function ‘int main()’:
+[3.065s] /home/wzy/my_learn/src/bt_basics/src/hello_sequence.cpp:147:51: error: cannot convert ‘main()::<lambda(BT::Duration, const BT::TreeNode&, BT::NodeStatus, BT::NodeStatus)>’ to ‘BT::TreeNode::StatusChangeCallback’ {aka ‘std::function<void(std::chrono::time_point<std::chrono::_V2::system_clock, std::chrono::duration<long int, std::ratio<1, 1000000000> > >, const BT::TreeNode&, BT::NodeStatus, BT::NodeStatus)>’}
+[3.065s]   147 |       subs.push_back(node->subscribeToStatusChange(
+[3.065s]       |                      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^
+[3.065s]   148 |         [&](BT::Duration, const BT::TreeNode & n, BT::NodeStatus prev, BT::NodeStatus status) {
+[3.065s]       |         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+[3.066s]   149 |           if (prev == BT::NodeStatus::IDLE && status != BT::NodeStatus::IDLE) {
+[3.066s]       |           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+[3.066s]   150 |             ticked.push_back(n.name());
+[3.066s]       |             ~~~~~~~~~~~~~~~~~~~~~~~~~~~            
+[3.066s]   151 |           }
+[3.066s]       |           ~                                        
+[3.066s]   152 |         }));
+[3.066s]       |         ~~                                         
+[3.066s] In file included from /opt/ros/humble/include/behaviortree_cpp_v3/control_node.h:17,
+[3.066s]                  from /opt/ros/humble/include/behaviortree_cpp_v3/controls/parallel_node.h:17,
+[3.066s]                  from /opt/ros/humble/include/behaviortree_cpp_v3/behavior_tree.h:17,
+[3.066s]                  from /opt/ros/humble/include/behaviortree_cpp_v3/bt_factory.h:25,
+[3.066s]                  from /home/wzy/my_learn/src/bt_basics/src/hello_sequence.cpp:6:
+[3.066s] /opt/ros/humble/include/behaviortree_cpp_v3/tree_node.h:112:71: note:   initializing argument 1 of ‘BT::TreeNode::StatusChangeSubscriber BT::TreeNode::subscribeToStatusChange(BT::TreeNode::StatusChangeCallback)’
+[3.066s]   112 |   StatusChangeSubscriber subscribeToStatusChange(StatusChangeCallback callback);
+[3.066s]       |                                                  ~~~~~~~~~~~~~~~~~~~~~^~~~~~~~
+[3.312s] gmake[2]: *** [CMakeFiles/hello_sequence.dir/build.make:76：CMakeFiles/hello_sequence.dir/src/hello_sequence.cpp.o] 错误 1
+[3.312s] gmake[1]: *** [CMakeFiles/Makefile2:169：CMakeFiles/hello_sequence.dir/all] 错误 2
+[3.312s] gmake[1]: *** 正在等待未完成的任务....
+[3.721s] [ 77%] Linking CXX executable counter_tree
+[3.819s] [ 77%] Built target counter_tree
+[3.878s] [ 88%] Linking CXX executable mini_nav_tree
+[3.978s] [ 88%] Built target mini_nav_tree
+[3.979s] gmake: *** [Makefile:146：all] 错误 2
+[3.980s] Invoked command in '/home/wzy/my_learn/build/bt_basics' returned '2': CMAKE_PREFIX_PATH=/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --build /home/wzy/my_learn/build/bt_basics -- -j12 -l12

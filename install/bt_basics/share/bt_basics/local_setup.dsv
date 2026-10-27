@@ -1,0 +1,3 @@
+source;share/bt_basics/environment/ament_prefix_path.sh
+source;share/bt_basics/environment/library_path.sh
+source;share/bt_basics/environment/path.sh

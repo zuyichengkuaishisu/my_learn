@@ -1,0 +1,36 @@
+/usr/bin/ld: /opt/ros/humble/lib/libbehaviortree_cpp_v3.so: undefined reference to `newwin@NCURSES6_5.0.19991023'
+/usr/bin/ld: /opt/ros/humble/lib/libbehaviortree_cpp_v3.so: undefined reference to `keypad@NCURSES6_TINFO_5.0.19991023'
+/usr/bin/ld: /opt/ros/humble/lib/libbehaviortree_cpp_v3.so: undefined reference to `wattr_off@NCURSES6_5.0.19991023'
+/usr/bin/ld: /opt/ros/humble/lib/libbehaviortree_cpp_v3.so: undefined reference to `initscr@NCURSES6_5.0.19991023'
+/usr/bin/ld: /opt/ros/humble/lib/libbehaviortree_cpp_v3.so: undefined reference to `cbreak@NCURSES6_TINFO_5.0.19991023'
+/usr/bin/ld: /opt/ros/humble/lib/libbehaviortree_cpp_v3.so: undefined reference to `curs_set@NCURSES6_TINFO_5.0.19991023'
+/usr/bin/ld: /opt/ros/humble/lib/libbehaviortree_cpp_v3.so: undefined reference to `wattr_on@NCURSES6_5.0.19991023'
+/usr/bin/ld: /opt/ros/humble/lib/libbehaviortree_cpp_v3.so: undefined reference to `mvwprintw@NCURSES6_5.0.19991023'
+/usr/bin/ld: /opt/ros/humble/lib/libbehaviortree_cpp_v3.so: undefined reference to `wrefresh@NCURSES6_5.0.19991023'
+/usr/bin/ld: /opt/ros/humble/lib/libbehaviortree_cpp_v3.so: undefined reference to `noecho@NCURSES6_5.0.19991023'
+/usr/bin/ld: /opt/ros/humble/lib/libbehaviortree_cpp_v3.so: undefined reference to `wgetch@NCURSES6_5.0.19991023'
+/usr/bin/ld: /opt/ros/humble/lib/libbehaviortree_cpp_v3.so: undefined reference to `endwin@NCURSES6_5.0.19991023'
+/usr/bin/ld: /opt/ros/humble/lib/libbehaviortree_cpp_v3.so: undefined reference to `delwin@NCURSES6_5.0.19991023'
+/usr/bin/ld: /opt/ros/humble/lib/libbehaviortree_cpp_v3.so: undefined reference to `werase@NCURSES6_5.0.19991023'
+collect2: error: ld returned 1 exit status
+gmake[2]: *** [CMakeFiles/bt_runner.dir/build.make:422：bt_runner] 错误 1
+gmake[1]: *** [CMakeFiles/Makefile2:167：CMakeFiles/bt_runner.dir/all] 错误 2
+gmake[1]: *** 正在等待未完成的任务....
+/usr/bin/ld: /opt/ros/humble/lib/libbehaviortree_cpp_v3.so: undefined reference to `newwin@NCURSES6_5.0.19991023'
+/usr/bin/ld: /opt/ros/humble/lib/libbehaviortree_cpp_v3.so: undefined reference to `keypad@NCURSES6_TINFO_5.0.19991023'
+/usr/bin/ld: /opt/ros/humble/lib/libbehaviortree_cpp_v3.so: undefined reference to `wattr_off@NCURSES6_5.0.19991023'
+/usr/bin/ld: /opt/ros/humble/lib/libbehaviortree_cpp_v3.so: undefined reference to `initscr@NCURSES6_5.0.19991023'
+/usr/bin/ld: /opt/ros/humble/lib/libbehaviortree_cpp_v3.so: undefined reference to `cbreak@NCURSES6_TINFO_5.0.19991023'
+/usr/bin/ld: /opt/ros/humble/lib/libbehaviortree_cpp_v3.so: undefined reference to `curs_set@NCURSES6_TINFO_5.0.19991023'
+/usr/bin/ld: /opt/ros/humble/lib/libbehaviortree_cpp_v3.so: undefined reference to `wattr_on@NCURSES6_5.0.19991023'
+/usr/bin/ld: /opt/ros/humble/lib/libbehaviortree_cpp_v3.so: undefined reference to `mvwprintw@NCURSES6_5.0.19991023'
+/usr/bin/ld: /opt/ros/humble/lib/libbehaviortree_cpp_v3.so: undefined reference to `wrefresh@NCURSES6_5.0.19991023'
+/usr/bin/ld: /opt/ros/humble/lib/libbehaviortree_cpp_v3.so: undefined reference to `noecho@NCURSES6_5.0.19991023'
+/usr/bin/ld: /opt/ros/humble/lib/libbehaviortree_cpp_v3.so: undefined reference to `wgetch@NCURSES6_5.0.19991023'
+/usr/bin/ld: /opt/ros/humble/lib/libbehaviortree_cpp_v3.so: undefined reference to `endwin@NCURSES6_5.0.19991023'
+/usr/bin/ld: /opt/ros/humble/lib/libbehaviortree_cpp_v3.so: undefined reference to `delwin@NCURSES6_5.0.19991023'
+/usr/bin/ld: /opt/ros/humble/lib/libbehaviortree_cpp_v3.so: undefined reference to `werase@NCURSES6_5.0.19991023'
+collect2: error: ld returned 1 exit status
+gmake[2]: *** [CMakeFiles/mission_runner.dir/build.make:422：mission_runner] 错误 1
+gmake[1]: *** [CMakeFiles/Makefile2:193：CMakeFiles/mission_runner.dir/all] 错误 2
+gmake: *** [Makefile:146：all] 错误 2

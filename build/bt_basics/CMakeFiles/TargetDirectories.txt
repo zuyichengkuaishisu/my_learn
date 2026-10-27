@@ -1,0 +1,13 @@
+/home/wzy/my_learn/build/bt_basics/CMakeFiles/uninstall.dir
+/home/wzy/my_learn/build/bt_basics/CMakeFiles/bt_basics_uninstall.dir
+/home/wzy/my_learn/build/bt_basics/CMakeFiles/bt_basics.dir
+/home/wzy/my_learn/build/bt_basics/CMakeFiles/hello_sequence.dir
+/home/wzy/my_learn/build/bt_basics/CMakeFiles/counter_tree.dir
+/home/wzy/my_learn/build/bt_basics/CMakeFiles/mini_nav_tree.dir
+/home/wzy/my_learn/build/bt_basics/CMakeFiles/test.dir
+/home/wzy/my_learn/build/bt_basics/CMakeFiles/edit_cache.dir
+/home/wzy/my_learn/build/bt_basics/CMakeFiles/rebuild_cache.dir
+/home/wzy/my_learn/build/bt_basics/CMakeFiles/list_install_components.dir
+/home/wzy/my_learn/build/bt_basics/CMakeFiles/install.dir
+/home/wzy/my_learn/build/bt_basics/CMakeFiles/install/local.dir
+/home/wzy/my_learn/build/bt_basics/CMakeFiles/install/strip.dir

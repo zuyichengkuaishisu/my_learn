@@ -1,0 +1,97 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-37fef72c552c87a3d63a.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "bt_nav2_plugins",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "bt_nav2_plugins_nodes::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-bt_nav2_plugins_nodes-c07e7d819c40b19a556b.json",
+					"name" : "bt_nav2_plugins_nodes",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "bt_nav2_plugins_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-bt_nav2_plugins_uninstall-406412d025731b77352c.json",
+					"name" : "bt_nav2_plugins_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "bt_runner::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-bt_runner-a2e5e588f46f1911828a.json",
+					"name" : "bt_runner",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "mission_runner::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-mission_runner-fd1b9af977a3cd6af840.json",
+					"name" : "mission_runner",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-cade33395bef3b14123c.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/wzy/my_learn/build/bt_nav2_plugins",
+		"source" : "/home/wzy/my_learn/src/bt_nav2_plugins"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

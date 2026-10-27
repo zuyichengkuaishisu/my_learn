@@ -1,0 +1,19 @@
+<root main_tree_to_execute="MainTree">
+  <BehaviorTree ID="MainTree">
+    <!-- 每拍先看进度。到了就成功；没到就进恢复节点：先靠近，失败就清标记再试。 -->
+    <ReactiveFallback name="UntilArrived">
+      <IsNumberAbove name="Arrived" value="{progress}" threshold="{goal}"/>
+      <RecoveryNode number_of_retries="2" name="MoveRecovery">
+        <SubTreePlus ID="Approach" goal="{goal}" progress="{progress}" fail_times="{fail_times}"/>
+        <Sequence name="ClearAndRetry">
+          <Note text="恢复：清除失败标记，准备重试 MoveTo"/>
+          <SetInt value="0" output="{fail_times}"/>
+        </Sequence>
+      </RecoveryNode>
+    </ReactiveFallback>
+  </BehaviorTree>
+
+  <BehaviorTree ID="Approach">
+    <MoveTo goal="{goal}" progress="{progress}" fail_times="{fail_times}" ticks_needed="3" stop_at_goal="false"/>
+  </BehaviorTree>
+</root>

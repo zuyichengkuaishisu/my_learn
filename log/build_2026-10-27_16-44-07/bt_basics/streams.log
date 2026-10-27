@@ -1,0 +1,60 @@
+[0.010s] Invoking command in '/home/wzy/my_learn/build/bt_basics': CMAKE_PREFIX_PATH=/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --build /home/wzy/my_learn/build/bt_basics -- -j12 -l12
+[0.051s] Consolidate compiler generated dependencies of target bt_basics
+[0.064s] [ 33%] Built target bt_basics
+[0.080s] Consolidate compiler generated dependencies of target counter_tree
+[0.081s] Consolidate compiler generated dependencies of target hello_sequence
+[0.081s] Consolidate compiler generated dependencies of target mini_nav_tree
+[0.101s] [ 44%] Building CXX object CMakeFiles/hello_sequence.dir/src/hello_sequence.cpp.o
+[0.101s] [ 66%] Built target mini_nav_tree
+[0.103s] [ 88%] Built target counter_tree
+[1.455s] [100%] Linking CXX executable hello_sequence
+[1.567s] [100%] Built target hello_sequence
+[1.580s] Invoked command in '/home/wzy/my_learn/build/bt_basics' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --build /home/wzy/my_learn/build/bt_basics -- -j12 -l12
+[1.599s] Invoking command in '/home/wzy/my_learn/build/bt_basics': CMAKE_PREFIX_PATH=/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --install /home/wzy/my_learn/build/bt_basics
+[1.608s] -- Install configuration: ""
+[1.608s] -- Installing: /home/wzy/my_learn/install/bt_basics/lib/bt_basics/hello_sequence
+[1.609s] -- Set runtime path of "/home/wzy/my_learn/install/bt_basics/lib/bt_basics/hello_sequence" to ""
+[1.609s] -- Installing: /home/wzy/my_learn/install/bt_basics/lib/bt_basics/counter_tree
+[1.610s] -- Set runtime path of "/home/wzy/my_learn/install/bt_basics/lib/bt_basics/counter_tree" to ""
+[1.610s] -- Installing: /home/wzy/my_learn/install/bt_basics/lib/bt_basics/mini_nav_tree
+[1.611s] -- Set runtime path of "/home/wzy/my_learn/install/bt_basics/lib/bt_basics/mini_nav_tree" to ""
+[1.611s] -- Installing: /home/wzy/my_learn/install/bt_basics/lib/libbt_basics.so
+[1.612s] -- Set runtime path of "/home/wzy/my_learn/install/bt_basics/lib/libbt_basics.so" to ""
+[1.613s] -- Installing: /home/wzy/my_learn/install/bt_basics/include
+[1.613s] -- Installing: /home/wzy/my_learn/install/bt_basics/include/bt_basics
+[1.613s] -- Installing: /home/wzy/my_learn/install/bt_basics/include/bt_basics/demo_runner.hpp
+[1.614s] -- Installing: /home/wzy/my_learn/install/bt_basics/include/bt_basics/move_to.hpp
+[1.614s] -- Installing: /home/wzy/my_learn/install/bt_basics/include/bt_basics/note.hpp
+[1.614s] -- Installing: /home/wzy/my_learn/install/bt_basics/share/bt_basics/trees
+[1.614s] -- Installing: /home/wzy/my_learn/install/bt_basics/share/bt_basics/trees/retry.xml
+[1.614s] -- Installing: /home/wzy/my_learn/install/bt_basics/share/bt_basics/trees/hello_sequence_fail.xml
+[1.615s] -- Installing: /home/wzy/my_learn/install/bt_basics/share/bt_basics/trees/hello_fallback.xml
+[1.615s] -- Installing: /home/wzy/my_learn/install/bt_basics/share/bt_basics/trees/inverter.xml
+[1.615s] -- Installing: /home/wzy/my_learn/install/bt_basics/share/bt_basics/trees/approach.xml
+[1.615s] -- Installing: /home/wzy/my_learn/install/bt_basics/share/bt_basics/trees/counter.xml
+[1.615s] -- Installing: /home/wzy/my_learn/install/bt_basics/share/bt_basics/trees/timeout.xml
+[1.616s] -- Installing: /home/wzy/my_learn/install/bt_basics/share/bt_basics/trees/hello_sequence.xml
+[1.616s] -- Installing: /home/wzy/my_learn/install/bt_basics/share/bt_basics/trees/hello_running.xml
+[1.616s] -- Installing: /home/wzy/my_learn/install/bt_basics/share/bt_basics/trees/counter_loose.xml
+[1.617s] -- Installing: /home/wzy/my_learn/install/bt_basics/share/bt_basics/environment/library_path.sh
+[1.617s] -- Installing: /home/wzy/my_learn/install/bt_basics/share/bt_basics/environment/library_path.dsv
+[1.617s] -- Installing: /home/wzy/my_learn/install/bt_basics/share/ament_index/resource_index/package_run_dependencies/bt_basics
+[1.617s] -- Installing: /home/wzy/my_learn/install/bt_basics/share/ament_index/resource_index/parent_prefix_path/bt_basics
+[1.617s] -- Installing: /home/wzy/my_learn/install/bt_basics/share/bt_basics/environment/ament_prefix_path.sh
+[1.618s] -- Installing: /home/wzy/my_learn/install/bt_basics/share/bt_basics/environment/ament_prefix_path.dsv
+[1.618s] -- Installing: /home/wzy/my_learn/install/bt_basics/share/bt_basics/environment/path.sh
+[1.618s] -- Installing: /home/wzy/my_learn/install/bt_basics/share/bt_basics/environment/path.dsv
+[1.618s] -- Installing: /home/wzy/my_learn/install/bt_basics/share/bt_basics/local_setup.bash
+[1.618s] -- Installing: /home/wzy/my_learn/install/bt_basics/share/bt_basics/local_setup.sh
+[1.618s] -- Installing: /home/wzy/my_learn/install/bt_basics/share/bt_basics/local_setup.zsh
+[1.619s] -- Installing: /home/wzy/my_learn/install/bt_basics/share/bt_basics/local_setup.dsv
+[1.619s] -- Installing: /home/wzy/my_learn/install/bt_basics/share/bt_basics/package.dsv
+[1.619s] -- Installing: /home/wzy/my_learn/install/bt_basics/share/ament_index/resource_index/packages/bt_basics
+[1.619s] -- Installing: /home/wzy/my_learn/install/bt_basics/share/bt_basics/cmake/export_bt_basicsExport.cmake
+[1.620s] -- Installing: /home/wzy/my_learn/install/bt_basics/share/bt_basics/cmake/export_bt_basicsExport-noconfig.cmake
+[1.620s] -- Installing: /home/wzy/my_learn/install/bt_basics/share/bt_basics/cmake/ament_cmake_export_targets-extras.cmake
+[1.620s] -- Installing: /home/wzy/my_learn/install/bt_basics/share/bt_basics/cmake/ament_cmake_export_dependencies-extras.cmake
+[1.620s] -- Installing: /home/wzy/my_learn/install/bt_basics/share/bt_basics/cmake/bt_basicsConfig.cmake
+[1.620s] -- Installing: /home/wzy/my_learn/install/bt_basics/share/bt_basics/cmake/bt_basicsConfig-version.cmake
+[1.621s] -- Installing: /home/wzy/my_learn/install/bt_basics/share/bt_basics/package.xml
+[1.622s] Invoked command in '/home/wzy/my_learn/build/bt_basics' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --install /home/wzy/my_learn/build/bt_basics

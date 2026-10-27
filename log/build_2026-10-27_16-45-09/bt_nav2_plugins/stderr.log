@@ -1,0 +1,26 @@
+CMake Warning at CMakeLists.txt:40 (add_executable):
+  Cannot generate a safe runtime search path for target bt_runner because
+  files in some directories may conflict with libraries in implicit
+  directories:
+
+    runtime library [libncurses.so.6] in /lib/x86_64-linux-gnu may be hidden by files in:
+      /home/wzy/anaconda3/lib
+    runtime library [libtinfo.so.6] in /lib/x86_64-linux-gnu may be hidden by files in:
+      /home/wzy/anaconda3/lib
+
+  Some of these libraries may not be found correctly.
+
+
+CMake Warning at CMakeLists.txt:50 (add_executable):
+  Cannot generate a safe runtime search path for target mission_runner
+  because files in some directories may conflict with libraries in implicit
+  directories:
+
+    runtime library [libncurses.so.6] in /lib/x86_64-linux-gnu may be hidden by files in:
+      /home/wzy/anaconda3/lib
+    runtime library [libtinfo.so.6] in /lib/x86_64-linux-gnu may be hidden by files in:
+      /home/wzy/anaconda3/lib
+
+  Some of these libraries may not be found correctly.
+
+

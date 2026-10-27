@@ -1,0 +1,56 @@
+Consolidate compiler generated dependencies of target bt_basics
+[ 33%] Built target bt_basics
+Consolidate compiler generated dependencies of target counter_tree
+Consolidate compiler generated dependencies of target hello_sequence
+Consolidate compiler generated dependencies of target mini_nav_tree
+[ 44%] Building CXX object CMakeFiles/hello_sequence.dir/src/hello_sequence.cpp.o
+[ 66%] Built target mini_nav_tree
+[ 88%] Built target counter_tree
+[100%] Linking CXX executable hello_sequence
+[100%] Built target hello_sequence
+-- Install configuration: ""
+-- Installing: /home/wzy/my_learn/install/bt_basics/lib/bt_basics/hello_sequence
+-- Set runtime path of "/home/wzy/my_learn/install/bt_basics/lib/bt_basics/hello_sequence" to ""
+-- Installing: /home/wzy/my_learn/install/bt_basics/lib/bt_basics/counter_tree
+-- Set runtime path of "/home/wzy/my_learn/install/bt_basics/lib/bt_basics/counter_tree" to ""
+-- Installing: /home/wzy/my_learn/install/bt_basics/lib/bt_basics/mini_nav_tree
+-- Set runtime path of "/home/wzy/my_learn/install/bt_basics/lib/bt_basics/mini_nav_tree" to ""
+-- Installing: /home/wzy/my_learn/install/bt_basics/lib/libbt_basics.so
+-- Set runtime path of "/home/wzy/my_learn/install/bt_basics/lib/libbt_basics.so" to ""
+-- Installing: /home/wzy/my_learn/install/bt_basics/include
+-- Installing: /home/wzy/my_learn/install/bt_basics/include/bt_basics
+-- Installing: /home/wzy/my_learn/install/bt_basics/include/bt_basics/demo_runner.hpp
+-- Installing: /home/wzy/my_learn/install/bt_basics/include/bt_basics/move_to.hpp
+-- Installing: /home/wzy/my_learn/install/bt_basics/include/bt_basics/note.hpp
+-- Installing: /home/wzy/my_learn/install/bt_basics/share/bt_basics/trees
+-- Installing: /home/wzy/my_learn/install/bt_basics/share/bt_basics/trees/retry.xml
+-- Installing: /home/wzy/my_learn/install/bt_basics/share/bt_basics/trees/hello_sequence_fail.xml
+-- Installing: /home/wzy/my_learn/install/bt_basics/share/bt_basics/trees/hello_fallback.xml
+-- Installing: /home/wzy/my_learn/install/bt_basics/share/bt_basics/trees/inverter.xml
+-- Installing: /home/wzy/my_learn/install/bt_basics/share/bt_basics/trees/approach.xml
+-- Installing: /home/wzy/my_learn/install/bt_basics/share/bt_basics/trees/counter.xml
+-- Installing: /home/wzy/my_learn/install/bt_basics/share/bt_basics/trees/timeout.xml
+-- Installing: /home/wzy/my_learn/install/bt_basics/share/bt_basics/trees/hello_sequence.xml
+-- Installing: /home/wzy/my_learn/install/bt_basics/share/bt_basics/trees/hello_running.xml
+-- Installing: /home/wzy/my_learn/install/bt_basics/share/bt_basics/trees/counter_loose.xml
+-- Installing: /home/wzy/my_learn/install/bt_basics/share/bt_basics/environment/library_path.sh
+-- Installing: /home/wzy/my_learn/install/bt_basics/share/bt_basics/environment/library_path.dsv
+-- Installing: /home/wzy/my_learn/install/bt_basics/share/ament_index/resource_index/package_run_dependencies/bt_basics
+-- Installing: /home/wzy/my_learn/install/bt_basics/share/ament_index/resource_index/parent_prefix_path/bt_basics
+-- Installing: /home/wzy/my_learn/install/bt_basics/share/bt_basics/environment/ament_prefix_path.sh
+-- Installing: /home/wzy/my_learn/install/bt_basics/share/bt_basics/environment/ament_prefix_path.dsv
+-- Installing: /home/wzy/my_learn/install/bt_basics/share/bt_basics/environment/path.sh
+-- Installing: /home/wzy/my_learn/install/bt_basics/share/bt_basics/environment/path.dsv
+-- Installing: /home/wzy/my_learn/install/bt_basics/share/bt_basics/local_setup.bash
+-- Installing: /home/wzy/my_learn/install/bt_basics/share/bt_basics/local_setup.sh
+-- Installing: /home/wzy/my_learn/install/bt_basics/share/bt_basics/local_setup.zsh
+-- Installing: /home/wzy/my_learn/install/bt_basics/share/bt_basics/local_setup.dsv
+-- Installing: /home/wzy/my_learn/install/bt_basics/share/bt_basics/package.dsv
+-- Installing: /home/wzy/my_learn/install/bt_basics/share/ament_index/resource_index/packages/bt_basics
+-- Installing: /home/wzy/my_learn/install/bt_basics/share/bt_basics/cmake/export_bt_basicsExport.cmake
+-- Installing: /home/wzy/my_learn/install/bt_basics/share/bt_basics/cmake/export_bt_basicsExport-noconfig.cmake
+-- Installing: /home/wzy/my_learn/install/bt_basics/share/bt_basics/cmake/ament_cmake_export_targets-extras.cmake
+-- Installing: /home/wzy/my_learn/install/bt_basics/share/bt_basics/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Installing: /home/wzy/my_learn/install/bt_basics/share/bt_basics/cmake/bt_basicsConfig.cmake
+-- Installing: /home/wzy/my_learn/install/bt_basics/share/bt_basics/cmake/bt_basicsConfig-version.cmake
+-- Installing: /home/wzy/my_learn/install/bt_basics/share/bt_basics/package.xml

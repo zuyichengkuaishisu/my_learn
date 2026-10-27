@@ -1,0 +1,35 @@
+[0.012s] Invoking command in '/home/wzy/my_learn/build/bt_nav2_plugins': CMAKE_PREFIX_PATH=/home/wzy/my_learn/install/bt_basics:/home/wzy/my_learn/install/bt_nav2_plugins:/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) LD_LIBRARY_PATH=/home/wzy/my_learn/install/bt_basics/lib:/home/wzy/my_learn/install/bt_nav2_plugins/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/wzy/my_learn/build/bt_nav2_plugins -- -j12 -l12
+[0.072s] [ 28%] Building CXX object CMakeFiles/bt_nav2_plugins_nodes.dir/src/register_nodes.cpp.o
+[0.072s] [ 42%] Built target mission_runner
+[0.078s] [ 71%] Built target bt_runner
+[0.975s] [ 85%] Linking CXX shared library libbt_nav2_plugins_nodes.so
+[1.074s] [100%] Built target bt_nav2_plugins_nodes
+[1.085s] Invoked command in '/home/wzy/my_learn/build/bt_nav2_plugins' returned '0': CMAKE_PREFIX_PATH=/home/wzy/my_learn/install/bt_basics:/home/wzy/my_learn/install/bt_nav2_plugins:/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) LD_LIBRARY_PATH=/home/wzy/my_learn/install/bt_basics/lib:/home/wzy/my_learn/install/bt_nav2_plugins/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/wzy/my_learn/build/bt_nav2_plugins -- -j12 -l12
+[1.086s] Invoking command in '/home/wzy/my_learn/build/bt_nav2_plugins': CMAKE_PREFIX_PATH=/home/wzy/my_learn/install/bt_basics:/home/wzy/my_learn/install/bt_nav2_plugins:/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) LD_LIBRARY_PATH=/home/wzy/my_learn/install/bt_basics/lib:/home/wzy/my_learn/install/bt_nav2_plugins/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --install /home/wzy/my_learn/build/bt_nav2_plugins
+[1.096s] -- Install configuration: ""
+[1.096s] -- Installing: /home/wzy/my_learn/install/bt_nav2_plugins/lib/libbt_nav2_plugins_nodes.so
+[1.098s] -- Set runtime path of "/home/wzy/my_learn/install/bt_nav2_plugins/lib/libbt_nav2_plugins_nodes.so" to ""
+[1.098s] -- Up-to-date: /home/wzy/my_learn/install/bt_nav2_plugins/lib/bt_nav2_plugins/bt_runner
+[1.098s] -- Up-to-date: /home/wzy/my_learn/install/bt_nav2_plugins/lib/bt_nav2_plugins/mission_runner
+[1.099s] -- Up-to-date: /home/wzy/my_learn/install/bt_nav2_plugins/share/bt_nav2_plugins/trees
+[1.099s] -- Installing: /home/wzy/my_learn/install/bt_nav2_plugins/share/bt_nav2_plugins/trees/mission.xml
+[1.100s] -- Up-to-date: /home/wzy/my_learn/install/bt_nav2_plugins/share/bt_nav2_plugins/trees/number_below.xml
+[1.100s] -- Up-to-date: /home/wzy/my_learn/install/bt_nav2_plugins/share/bt_nav2_plugins/trees/number_above.xml
+[1.100s] -- Installing: /home/wzy/my_learn/install/bt_nav2_plugins/share/bt_nav2_plugins/plugins.xml
+[1.100s] -- Up-to-date: /home/wzy/my_learn/install/bt_nav2_plugins/share/ament_index/resource_index/package_run_dependencies/bt_nav2_plugins
+[1.100s] -- Up-to-date: /home/wzy/my_learn/install/bt_nav2_plugins/share/ament_index/resource_index/parent_prefix_path/bt_nav2_plugins
+[1.101s] -- Up-to-date: /home/wzy/my_learn/install/bt_nav2_plugins/share/bt_nav2_plugins/environment/ament_prefix_path.sh
+[1.101s] -- Up-to-date: /home/wzy/my_learn/install/bt_nav2_plugins/share/bt_nav2_plugins/environment/ament_prefix_path.dsv
+[1.101s] -- Up-to-date: /home/wzy/my_learn/install/bt_nav2_plugins/share/bt_nav2_plugins/environment/path.sh
+[1.101s] -- Up-to-date: /home/wzy/my_learn/install/bt_nav2_plugins/share/bt_nav2_plugins/environment/path.dsv
+[1.101s] -- Up-to-date: /home/wzy/my_learn/install/bt_nav2_plugins/share/bt_nav2_plugins/local_setup.bash
+[1.101s] -- Up-to-date: /home/wzy/my_learn/install/bt_nav2_plugins/share/bt_nav2_plugins/local_setup.sh
+[1.102s] -- Up-to-date: /home/wzy/my_learn/install/bt_nav2_plugins/share/bt_nav2_plugins/local_setup.zsh
+[1.103s] -- Up-to-date: /home/wzy/my_learn/install/bt_nav2_plugins/share/bt_nav2_plugins/local_setup.dsv
+[1.103s] -- Up-to-date: /home/wzy/my_learn/install/bt_nav2_plugins/share/bt_nav2_plugins/package.dsv
+[1.103s] -- Up-to-date: /home/wzy/my_learn/install/bt_nav2_plugins/share/ament_index/resource_index/packages/bt_nav2_plugins
+[1.103s] -- Up-to-date: /home/wzy/my_learn/install/bt_nav2_plugins/share/ament_index/resource_index/bt_nav2_plugins__pluginlib__plugin/bt_nav2_plugins
+[1.104s] -- Up-to-date: /home/wzy/my_learn/install/bt_nav2_plugins/share/bt_nav2_plugins/cmake/bt_nav2_pluginsConfig.cmake
+[1.104s] -- Up-to-date: /home/wzy/my_learn/install/bt_nav2_plugins/share/bt_nav2_plugins/cmake/bt_nav2_pluginsConfig-version.cmake
+[1.104s] -- Up-to-date: /home/wzy/my_learn/install/bt_nav2_plugins/share/bt_nav2_plugins/package.xml
+[1.105s] Invoked command in '/home/wzy/my_learn/build/bt_nav2_plugins' returned '0': CMAKE_PREFIX_PATH=/home/wzy/my_learn/install/bt_basics:/home/wzy/my_learn/install/bt_nav2_plugins:/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) LD_LIBRARY_PATH=/home/wzy/my_learn/install/bt_basics/lib:/home/wzy/my_learn/install/bt_nav2_plugins/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --install /home/wzy/my_learn/build/bt_nav2_plugins

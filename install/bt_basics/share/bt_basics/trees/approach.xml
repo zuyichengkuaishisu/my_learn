@@ -1,0 +1,14 @@
+<root main_tree_to_execute="MainTree">
+  <BehaviorTree ID="MainTree">
+    <!-- 每拍先问到了没有。到了就成功，并打断还在 RUNNING 的靠近动作。 -->
+    <ReactiveFallback name="UntilArrived">
+      <Arrived name="Arrived" progress="{progress}" goal="{goal}"/>
+      <SubTreePlus ID="Approach" goal="{goal}" progress="{progress}"/>
+    </ReactiveFallback>
+  </BehaviorTree>
+
+  <BehaviorTree ID="Approach">
+    <!-- stop_at_goal 为 false：走到目标后继续 RUNNING，把收尾留给上面的条件节点。 -->
+    <MoveTo goal="{goal}" progress="{progress}" ticks_needed="3" stop_at_goal="false"/>
+  </BehaviorTree>
+</root>

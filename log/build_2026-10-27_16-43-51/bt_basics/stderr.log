@@ -1,0 +1,48 @@
+/home/wzy/my_learn/src/bt_basics/src/hello_sequence.cpp: In function ‘int {anonymous}::runOnce(BT::BehaviorTreeFactory&, const string&, const string&, const std::function<int(BT::NodeStatus, const std::vector<std::__cxx11::basic_string<char> >&)>&, int)’:
+/home/wzy/my_learn/src/bt_basics/src/hello_sequence.cpp:79:49: error: cannot convert ‘{anonymous}::runOnce(BT::BehaviorTreeFactory&, const string&, const string&, const std::function<int(BT::NodeStatus, const std::vector<std::__cxx11::basic_string<char> >&)>&, int)::<lambda(BT::Duration, const BT::TreeNode&, BT::NodeStatus, BT::NodeStatus)>’ to ‘BT::TreeNode::StatusChangeCallback’ {aka ‘std::function<void(std::chrono::time_point<std::chrono::_V2::system_clock, std::chrono::duration<long int, std::ratio<1, 1000000000> > >, const BT::TreeNode&, BT::NodeStatus, BT::NodeStatus)>’}
+   79 |     subs.push_back(node->subscribeToStatusChange(
+      |                    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^
+   80 |       [&](BT::Duration, const BT::TreeNode & n, BT::NodeStatus prev, BT::NodeStatus status) {
+      |       ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+   81 |         if (prev == BT::NodeStatus::IDLE && status != BT::NodeStatus::IDLE) {
+      |         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+   82 |           ticked.push_back(n.name());
+      |           ~~~~~~~~~~~~~~~~~~~~~~~~~~~            
+   83 |         }
+      |         ~                                        
+   84 |       }));
+      |       ~~                                         
+In file included from /opt/ros/humble/include/behaviortree_cpp_v3/control_node.h:17,
+                 from /opt/ros/humble/include/behaviortree_cpp_v3/controls/parallel_node.h:17,
+                 from /opt/ros/humble/include/behaviortree_cpp_v3/behavior_tree.h:17,
+                 from /opt/ros/humble/include/behaviortree_cpp_v3/bt_factory.h:25,
+                 from /home/wzy/my_learn/src/bt_basics/src/hello_sequence.cpp:6:
+/opt/ros/humble/include/behaviortree_cpp_v3/tree_node.h:112:71: note:   initializing argument 1 of ‘BT::TreeNode::StatusChangeSubscriber BT::TreeNode::subscribeToStatusChange(BT::TreeNode::StatusChangeCallback)’
+  112 |   StatusChangeSubscriber subscribeToStatusChange(StatusChangeCallback callback);
+      |                                                  ~~~~~~~~~~~~~~~~~~~~~^~~~~~~~
+/home/wzy/my_learn/src/bt_basics/src/hello_sequence.cpp: In function ‘int main()’:
+/home/wzy/my_learn/src/bt_basics/src/hello_sequence.cpp:147:51: error: cannot convert ‘main()::<lambda(BT::Duration, const BT::TreeNode&, BT::NodeStatus, BT::NodeStatus)>’ to ‘BT::TreeNode::StatusChangeCallback’ {aka ‘std::function<void(std::chrono::time_point<std::chrono::_V2::system_clock, std::chrono::duration<long int, std::ratio<1, 1000000000> > >, const BT::TreeNode&, BT::NodeStatus, BT::NodeStatus)>’}
+  147 |       subs.push_back(node->subscribeToStatusChange(
+      |                      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^
+  148 |         [&](BT::Duration, const BT::TreeNode & n, BT::NodeStatus prev, BT::NodeStatus status) {
+      |         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+  149 |           if (prev == BT::NodeStatus::IDLE && status != BT::NodeStatus::IDLE) {
+      |           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+  150 |             ticked.push_back(n.name());
+      |             ~~~~~~~~~~~~~~~~~~~~~~~~~~~            
+  151 |           }
+      |           ~                                        
+  152 |         }));
+      |         ~~                                         
+In file included from /opt/ros/humble/include/behaviortree_cpp_v3/control_node.h:17,
+                 from /opt/ros/humble/include/behaviortree_cpp_v3/controls/parallel_node.h:17,
+                 from /opt/ros/humble/include/behaviortree_cpp_v3/behavior_tree.h:17,
+                 from /opt/ros/humble/include/behaviortree_cpp_v3/bt_factory.h:25,
+                 from /home/wzy/my_learn/src/bt_basics/src/hello_sequence.cpp:6:
+/opt/ros/humble/include/behaviortree_cpp_v3/tree_node.h:112:71: note:   initializing argument 1 of ‘BT::TreeNode::StatusChangeSubscriber BT::TreeNode::subscribeToStatusChange(BT::TreeNode::StatusChangeCallback)’
+  112 |   StatusChangeSubscriber subscribeToStatusChange(StatusChangeCallback callback);
+      |                                                  ~~~~~~~~~~~~~~~~~~~~~^~~~~~~~
+gmake[2]: *** [CMakeFiles/hello_sequence.dir/build.make:76：CMakeFiles/hello_sequence.dir/src/hello_sequence.cpp.o] 错误 1
+gmake[1]: *** [CMakeFiles/Makefile2:169：CMakeFiles/hello_sequence.dir/all] 错误 2
+gmake[1]: *** 正在等待未完成的任务....
+gmake: *** [Makefile:146：all] 错误 2

@@ -1,0 +1,22 @@
+<library path="bt_nav2_plugins_nodes">
+  <class name="bt_nav2_plugins/IsNumberAbove"
+         type="bt_nav2_plugins::IsNumberAbove"
+         base_class_type="BT::ConditionNode">
+    <description>value 大于等于 threshold 时返回 SUCCESS。BehaviorTreeEngine 通过 BT_REGISTER_NODES 加载这个 so，这份 XML 让 pluginlib 能在包索引里找到同一个库。</description>
+  </class>
+  <class name="bt_nav2_plugins/MoveTo"
+         type="bt_basics::MoveTo"
+         base_class_type="BT::StatefulActionNode">
+    <description>跨拍前进的假动作，和 IsNumberAbove 编在同一个插件里，周日的任务树会用到。</description>
+  </class>
+  <class name="bt_nav2_plugins/Note"
+         type="bt_basics::Note"
+         base_class_type="BT::SyncActionNode">
+    <description>打印一行并返回 SUCCESS，用作恢复分支里的可见动作。</description>
+  </class>
+  <class name="bt_nav2_plugins/SetInt"
+         type="bt_basics::SetInt"
+         base_class_type="BT::SyncActionNode">
+    <description>把整数写回黑板。键一旦以 int 写入，就不能再用 SetBlackboard 改成字符串。</description>
+  </class>
+</library>

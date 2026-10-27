@@ -1,0 +1,77 @@
+-- The C compiler identification is GNU 11.4.0
+-- The CXX compiler identification is GNU 11.4.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 1.3.14 (/opt/ros/humble/share/ament_cmake/cmake)
+-- Found Python3: /home/wzy/anaconda3/bin/python3 (found version "3.13.9") found components: Interpreter 
+-- Found ament_index_cpp: 1.4.1 (/opt/ros/humble/share/ament_index_cpp/cmake)
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/wzy/my_learn/build/bt_basics
+[ 11%] Building CXX object CMakeFiles/bt_basics.dir/src/note.cpp.o
+[ 22%] Building CXX object CMakeFiles/bt_basics.dir/src/move_to.cpp.o
+[ 33%] Linking CXX shared library libbt_basics.so
+[ 33%] Built target bt_basics
+[ 44%] Building CXX object CMakeFiles/counter_tree.dir/src/counter_tree.cpp.o
+[ 66%] Building CXX object CMakeFiles/hello_sequence.dir/src/hello_sequence.cpp.o
+[ 66%] Building CXX object CMakeFiles/mini_nav_tree.dir/src/mini_nav_tree.cpp.o
+/home/wzy/my_learn/src/bt_basics/src/hello_sequence.cpp: In function ‘int {anonymous}::runOnce(BT::BehaviorTreeFactory&, const string&, const string&, const std::function<int(BT::NodeStatus, const std::vector<std::__cxx11::basic_string<char> >&)>&, int)’:
+/home/wzy/my_learn/src/bt_basics/src/hello_sequence.cpp:79:49: error: cannot convert ‘{anonymous}::runOnce(BT::BehaviorTreeFactory&, const string&, const string&, const std::function<int(BT::NodeStatus, const std::vector<std::__cxx11::basic_string<char> >&)>&, int)::<lambda(BT::Duration, const BT::TreeNode&, BT::NodeStatus, BT::NodeStatus)>’ to ‘BT::TreeNode::StatusChangeCallback’ {aka ‘std::function<void(std::chrono::time_point<std::chrono::_V2::system_clock, std::chrono::duration<long int, std::ratio<1, 1000000000> > >, const BT::TreeNode&, BT::NodeStatus, BT::NodeStatus)>’}
+   79 |     subs.push_back(node->subscribeToStatusChange(
+      |                    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^
+   80 |       [&](BT::Duration, const BT::TreeNode & n, BT::NodeStatus prev, BT::NodeStatus status) {
+      |       ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+   81 |         if (prev == BT::NodeStatus::IDLE && status != BT::NodeStatus::IDLE) {
+      |         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+   82 |           ticked.push_back(n.name());
+      |           ~~~~~~~~~~~~~~~~~~~~~~~~~~~            
+   83 |         }
+      |         ~                                        
+   84 |       }));
+      |       ~~                                         
+In file included from /opt/ros/humble/include/behaviortree_cpp_v3/control_node.h:17,
+                 from /opt/ros/humble/include/behaviortree_cpp_v3/controls/parallel_node.h:17,
+                 from /opt/ros/humble/include/behaviortree_cpp_v3/behavior_tree.h:17,
+                 from /opt/ros/humble/include/behaviortree_cpp_v3/bt_factory.h:25,
+                 from /home/wzy/my_learn/src/bt_basics/src/hello_sequence.cpp:6:
+/opt/ros/humble/include/behaviortree_cpp_v3/tree_node.h:112:71: note:   initializing argument 1 of ‘BT::TreeNode::StatusChangeSubscriber BT::TreeNode::subscribeToStatusChange(BT::TreeNode::StatusChangeCallback)’
+  112 |   StatusChangeSubscriber subscribeToStatusChange(StatusChangeCallback callback);
+      |                                                  ~~~~~~~~~~~~~~~~~~~~~^~~~~~~~
+/home/wzy/my_learn/src/bt_basics/src/hello_sequence.cpp: In function ‘int main()’:
+/home/wzy/my_learn/src/bt_basics/src/hello_sequence.cpp:147:51: error: cannot convert ‘main()::<lambda(BT::Duration, const BT::TreeNode&, BT::NodeStatus, BT::NodeStatus)>’ to ‘BT::TreeNode::StatusChangeCallback’ {aka ‘std::function<void(std::chrono::time_point<std::chrono::_V2::system_clock, std::chrono::duration<long int, std::ratio<1, 1000000000> > >, const BT::TreeNode&, BT::NodeStatus, BT::NodeStatus)>’}
+  147 |       subs.push_back(node->subscribeToStatusChange(
+      |                      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^
+  148 |         [&](BT::Duration, const BT::TreeNode & n, BT::NodeStatus prev, BT::NodeStatus status) {
+      |         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+  149 |           if (prev == BT::NodeStatus::IDLE && status != BT::NodeStatus::IDLE) {
+      |           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+  150 |             ticked.push_back(n.name());
+      |             ~~~~~~~~~~~~~~~~~~~~~~~~~~~            
+  151 |           }
+      |           ~                                        
+  152 |         }));
+      |         ~~                                         
+In file included from /opt/ros/humble/include/behaviortree_cpp_v3/control_node.h:17,
+                 from /opt/ros/humble/include/behaviortree_cpp_v3/controls/parallel_node.h:17,
+                 from /opt/ros/humble/include/behaviortree_cpp_v3/behavior_tree.h:17,
+                 from /opt/ros/humble/include/behaviortree_cpp_v3/bt_factory.h:25,
+                 from /home/wzy/my_learn/src/bt_basics/src/hello_sequence.cpp:6:
+/opt/ros/humble/include/behaviortree_cpp_v3/tree_node.h:112:71: note:   initializing argument 1 of ‘BT::TreeNode::StatusChangeSubscriber BT::TreeNode::subscribeToStatusChange(BT::TreeNode::StatusChangeCallback)’
+  112 |   StatusChangeSubscriber subscribeToStatusChange(StatusChangeCallback callback);
+      |                                                  ~~~~~~~~~~~~~~~~~~~~~^~~~~~~~
+gmake[2]: *** [CMakeFiles/hello_sequence.dir/build.make:76：CMakeFiles/hello_sequence.dir/src/hello_sequence.cpp.o] 错误 1
+gmake[1]: *** [CMakeFiles/Makefile2:169：CMakeFiles/hello_sequence.dir/all] 错误 2
+gmake[1]: *** 正在等待未完成的任务....
+[ 77%] Linking CXX executable counter_tree
+[ 77%] Built target counter_tree
+[ 88%] Linking CXX executable mini_nav_tree
+[ 88%] Built target mini_nav_tree
+gmake: *** [Makefile:146：all] 错误 2

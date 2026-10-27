@@ -1,0 +1,4 @@
+Invoking command in '/home/wzy/my_learn/build/bt_basics': CMAKE_PREFIX_PATH=/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake /home/wzy/my_learn/src/bt_basics -DCMAKE_INSTALL_PREFIX=/home/wzy/my_learn/install/bt_basics
+Invoked command in '/home/wzy/my_learn/build/bt_basics' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake /home/wzy/my_learn/src/bt_basics -DCMAKE_INSTALL_PREFIX=/home/wzy/my_learn/install/bt_basics
+Invoking command in '/home/wzy/my_learn/build/bt_basics': CMAKE_PREFIX_PATH=/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --build /home/wzy/my_learn/build/bt_basics -- -j12 -l12
+Invoked command in '/home/wzy/my_learn/build/bt_basics' returned '2': CMAKE_PREFIX_PATH=/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --build /home/wzy/my_learn/build/bt_basics -- -j12 -l12

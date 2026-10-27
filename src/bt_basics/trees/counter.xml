@@ -1,0 +1,10 @@
+<root main_tree_to_execute="MainTree">
+  <BehaviorTree ID="MainTree">
+    <Repeat name="UntilFull" num_cycles="20">
+      <Sequence name="Step">
+        <CheckCounter threshold="3" count="{count}"/>
+        <Increment count="{count}"/>
+      </Sequence>
+    </Repeat>
+  </BehaviorTree>
+</root>

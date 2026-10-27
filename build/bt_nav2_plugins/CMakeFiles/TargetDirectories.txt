@@ -1,0 +1,12 @@
+/home/wzy/my_learn/build/bt_nav2_plugins/CMakeFiles/uninstall.dir
+/home/wzy/my_learn/build/bt_nav2_plugins/CMakeFiles/bt_nav2_plugins_uninstall.dir
+/home/wzy/my_learn/build/bt_nav2_plugins/CMakeFiles/bt_nav2_plugins_nodes.dir
+/home/wzy/my_learn/build/bt_nav2_plugins/CMakeFiles/bt_runner.dir
+/home/wzy/my_learn/build/bt_nav2_plugins/CMakeFiles/mission_runner.dir
+/home/wzy/my_learn/build/bt_nav2_plugins/CMakeFiles/test.dir
+/home/wzy/my_learn/build/bt_nav2_plugins/CMakeFiles/edit_cache.dir
+/home/wzy/my_learn/build/bt_nav2_plugins/CMakeFiles/rebuild_cache.dir
+/home/wzy/my_learn/build/bt_nav2_plugins/CMakeFiles/list_install_components.dir
+/home/wzy/my_learn/build/bt_nav2_plugins/CMakeFiles/install.dir
+/home/wzy/my_learn/build/bt_nav2_plugins/CMakeFiles/install/local.dir
+/home/wzy/my_learn/build/bt_nav2_plugins/CMakeFiles/install/strip.dir

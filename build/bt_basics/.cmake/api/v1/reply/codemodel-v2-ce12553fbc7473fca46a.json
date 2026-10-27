@@ -1,0 +1,106 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-b0e29c70bc6e796e790c.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "bt_basics",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "bt_basics::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-bt_basics-6bd029f47d15751b5a13.json",
+					"name" : "bt_basics",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "bt_basics_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-bt_basics_uninstall-86b70fdf55733e839965.json",
+					"name" : "bt_basics_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "counter_tree::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-counter_tree-f56cdeed4a7bea39740f.json",
+					"name" : "counter_tree",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "hello_sequence::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-hello_sequence-cd8147d84b872b2ad3aa.json",
+					"name" : "hello_sequence",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "mini_nav_tree::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-mini_nav_tree-20cd8c931008b0f7022e.json",
+					"name" : "mini_nav_tree",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-cba9149b750d8271d2aa.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/wzy/my_learn/build/bt_basics",
+		"source" : "/home/wzy/my_learn/src/bt_basics"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

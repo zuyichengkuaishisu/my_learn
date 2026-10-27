@@ -1,0 +1,7 @@
+<root main_tree_to_execute="MainTree">
+  <BehaviorTree ID="MainTree">
+    <Timeout name="GiveUp" msec="30">
+      <MoveTo name="slow" goal="{goal}" progress="{progress}" ticks_needed="50"/>
+    </Timeout>
+  </BehaviorTree>
+</root>

@@ -1,0 +1,1 @@
+/usr/bin/c++ CMakeFiles/counter_tree.dir/src/counter_tree.cpp.o -o counter_tree  -Wl,-rpath,/home/wzy/my_learn/build/bt_basics:/opt/ros/humble/lib: libbt_basics.so /opt/ros/humble/lib/libbehaviortree_cpp_v3.so /opt/ros/humble/lib/libament_index_cpp.so -ldl 

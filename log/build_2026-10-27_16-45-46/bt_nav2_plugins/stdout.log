@@ -1,0 +1,31 @@
+[ 28%] Building CXX object CMakeFiles/bt_nav2_plugins_nodes.dir/src/register_nodes.cpp.o
+[ 42%] Built target mission_runner
+[ 71%] Built target bt_runner
+[ 85%] Linking CXX shared library libbt_nav2_plugins_nodes.so
+[100%] Built target bt_nav2_plugins_nodes
+-- Install configuration: ""
+-- Installing: /home/wzy/my_learn/install/bt_nav2_plugins/lib/libbt_nav2_plugins_nodes.so
+-- Set runtime path of "/home/wzy/my_learn/install/bt_nav2_plugins/lib/libbt_nav2_plugins_nodes.so" to ""
+-- Up-to-date: /home/wzy/my_learn/install/bt_nav2_plugins/lib/bt_nav2_plugins/bt_runner
+-- Up-to-date: /home/wzy/my_learn/install/bt_nav2_plugins/lib/bt_nav2_plugins/mission_runner
+-- Up-to-date: /home/wzy/my_learn/install/bt_nav2_plugins/share/bt_nav2_plugins/trees
+-- Installing: /home/wzy/my_learn/install/bt_nav2_plugins/share/bt_nav2_plugins/trees/mission.xml
+-- Up-to-date: /home/wzy/my_learn/install/bt_nav2_plugins/share/bt_nav2_plugins/trees/number_below.xml
+-- Up-to-date: /home/wzy/my_learn/install/bt_nav2_plugins/share/bt_nav2_plugins/trees/number_above.xml
+-- Installing: /home/wzy/my_learn/install/bt_nav2_plugins/share/bt_nav2_plugins/plugins.xml
+-- Up-to-date: /home/wzy/my_learn/install/bt_nav2_plugins/share/ament_index/resource_index/package_run_dependencies/bt_nav2_plugins
+-- Up-to-date: /home/wzy/my_learn/install/bt_nav2_plugins/share/ament_index/resource_index/parent_prefix_path/bt_nav2_plugins
+-- Up-to-date: /home/wzy/my_learn/install/bt_nav2_plugins/share/bt_nav2_plugins/environment/ament_prefix_path.sh
+-- Up-to-date: /home/wzy/my_learn/install/bt_nav2_plugins/share/bt_nav2_plugins/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/wzy/my_learn/install/bt_nav2_plugins/share/bt_nav2_plugins/environment/path.sh
+-- Up-to-date: /home/wzy/my_learn/install/bt_nav2_plugins/share/bt_nav2_plugins/environment/path.dsv
+-- Up-to-date: /home/wzy/my_learn/install/bt_nav2_plugins/share/bt_nav2_plugins/local_setup.bash
+-- Up-to-date: /home/wzy/my_learn/install/bt_nav2_plugins/share/bt_nav2_plugins/local_setup.sh
+-- Up-to-date: /home/wzy/my_learn/install/bt_nav2_plugins/share/bt_nav2_plugins/local_setup.zsh
+-- Up-to-date: /home/wzy/my_learn/install/bt_nav2_plugins/share/bt_nav2_plugins/local_setup.dsv
+-- Up-to-date: /home/wzy/my_learn/install/bt_nav2_plugins/share/bt_nav2_plugins/package.dsv
+-- Up-to-date: /home/wzy/my_learn/install/bt_nav2_plugins/share/ament_index/resource_index/packages/bt_nav2_plugins
+-- Up-to-date: /home/wzy/my_learn/install/bt_nav2_plugins/share/ament_index/resource_index/bt_nav2_plugins__pluginlib__plugin/bt_nav2_plugins
+-- Up-to-date: /home/wzy/my_learn/install/bt_nav2_plugins/share/bt_nav2_plugins/cmake/bt_nav2_pluginsConfig.cmake
+-- Up-to-date: /home/wzy/my_learn/install/bt_nav2_plugins/share/bt_nav2_plugins/cmake/bt_nav2_pluginsConfig-version.cmake
+-- Up-to-date: /home/wzy/my_learn/install/bt_nav2_plugins/share/bt_nav2_plugins/package.xml

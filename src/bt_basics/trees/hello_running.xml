@@ -1,0 +1,8 @@
+<root main_tree_to_execute="MainTree">
+  <BehaviorTree ID="MainTree">
+    <Sequence name="GateSeq">
+      <TickGate name="first" ticks="2"/>
+      <TickGate name="second" ticks="1"/>
+    </Sequence>
+  </BehaviorTree>
+</root>

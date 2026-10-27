@@ -1,0 +1,7 @@
+<root main_tree_to_execute="MainTree">
+  <BehaviorTree ID="MainTree">
+    <RetryUntilSuccessful name="TryAgain" num_attempts="4">
+      <MoveTo name="flaky" goal="{goal}" progress="{progress}" fail_times="{fail_times}" ticks_needed="1"/>
+    </RetryUntilSuccessful>
+  </BehaviorTree>
+</root>

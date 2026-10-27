@@ -1,0 +1,7 @@
+<root main_tree_to_execute="MainTree">
+  <BehaviorTree ID="MainTree">
+    <Inverter name="NotOk">
+      <AlwaysSuccess name="ok"/>
+    </Inverter>
+  </BehaviorTree>
+</root>
